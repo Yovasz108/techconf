@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gradient-to-b from-[#020611] via-[#050914] to-[#020611]">
+    <!--NAVBAR INICIO-->
+    <nav class="w-full px-6 md:px-10 py-6 flex items-center justify-between border-b border-gray-600 relative">
+
+      <!-- Botón izquierda -->
+      <div>
+        <button class="px-4 py-2 text-white border border-gray-400 rounded-full hover:bg-white/10 transition">
+          Botón
+        </button>
+      </div>
+
+      <!-- menú centrado -->
+      <div class="hidden md:flex gap-6 absolute left-1/2 -translate-x-1/2">
+        
+        <a class="px-6 py-2 text-white border border-purple-500 rounded-full shadow-[0_0_5px_#7c3aed] hover:shadow-[0_0_8px_#7c3aed] transition duration-300">
+          Inicio
+        </a>
+
+        <a class="px-6 py-2 text-white border border-purple-500 rounded-full shadow-[0_0_5px_#7c3aed] hover:shadow-[0_0_8px_#7c3aed] transition duration-300">
+          Agenda
+        </a>
+
+        <a class="px-6 py-2 text-white border border-purple-500 rounded-full shadow-[0_0_5px_#7c3aed] hover:shadow-[0_0_8px_#7c3aed] transition duration-300">
+          Expositores
+        </a>
+
+        <a class="px-6 py-2 text-white border border-purple-500 rounded-full shadow-[0_0_5px_#7c3aed] hover:shadow-[0_0_8px_#7c3aed] transition duration-300">
+          Talleres
+        </a>
+
+      </div>
+
+      <!-- acciones derecha -->
+      <div class="flex items-center gap-4 md:gap-6">
+
+        <button class="px-6 py-2 text-white border border-cyan-400 rounded-full shadow-[0_0_5px_#22d3ee] hover:shadow-[0_0_8px_#22d3ee] transition duration-300">
+          Registrarse
+        </button>
+
+        <!-- icono usuario -->
+        <div class="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full border border-cyan-400 text-cyan-400 shadow-[0_0_5px_#22d3ee]">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 md:w-6 md:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M5.121 17.804A9 9 0 1118.879 17.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+          </svg>
+        </div>
+
+      </div>
+
+    </nav>
+    <!--NAVBAR FIN-->
+<!-- HERO -->
+<!-- HERO -->
+<section
+  class="relative overflow-hidden flex flex-col items-center text-center px-6 pt-28 pb-20 text-white"
+>
+
+  <!-- Glow izquierda -->
+  <div class="absolute  -translate-x-[650px] top-[15%] w-80 h-80 bg-blue-500/40 rounded-full blur-[140px]"></div>
+
+  <!-- Glow derecha -->
+  <div class="absolute  translate-x-[650px] top-[15%] w-80 h-80 bg-purple-500/40 rounded-full blur-[140px]"></div>
+
+  <!-- Badge -->
+  <span
+    class="relative z-10 px-4 py-1 text-xs tracking-widest border border-blue-500 rounded-full text-blue-400 bg-blue-500/10"
+  >
+    ● PRÓXIMO EVENTO: OCTUBRE 15-17
+  </span>
+
+  <!-- Título -->
+  <h1
+    class="relative z-10 mt-8 text-4xl md:text-6xl lg:text-7xl font-semibold leading-tight max-w-5xl"
+  >
+    EL FUTURO DE LA <span class="text-blue-500">IA</span>  
+    <br />
+    & EL DESARROLLO
+  </h1>
+
+  <!-- Descripción -->
+  <p class="relative z-10 mt-6 text-gray-400 max-w-2xl text-sm md:text-base">
+    Únete a los arquitectos del mañana con el congreso tecnológico más
+    disruptivo de la región. Tres días de inmersión total en ingeniería
+    avanzada e inteligencia artificial.
+  </p>
+
+  <!-- Botones -->
+  <div class="relative z-10 flex flex-wrap justify-center gap-4 mt-10">
+    <button
+      class="px-6 py-3 rounded-full border border-cyan-400 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+    >
+      Comprar Tickets →
+    </button>
+
+    <button
+      class="px-6 py-3 rounded-full border border-white/20 text-gray-300 hover:bg-white/10 transition"
+    >
+      Ver Agenda Completa
+    </button>
+  </div>
+
+  <!-- Contador -->
+  <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 w-full max-w-5xl">
+
+    <div class="bg-white/5 border border-white/10 rounded-xl py-8">
+      <p class="text-4xl font-semibold">9</p>
+      <span class="text-blue-500 text-sm tracking-widest">DÍAS</span>
+    </div>
+
+    <div class="bg-white/5 border border-white/10 rounded-xl py-8">
+      <p class="text-4xl font-semibold">7</p>
+      <span class="text-blue-500 text-sm tracking-widest">HORAS</span>
+    </div>
+
+    <div class="bg-white/5 border border-white/10 rounded-xl py-8">
+      <p class="text-4xl font-semibold">49</p>
+      <span class="text-blue-500 text-sm tracking-widest">MINUTOS</span>
+    </div>
+
+    <div class="bg-white/5 border border-white/10 rounded-xl py-8">
+      <p class="text-4xl font-semibold">50</p>
+      <span class="text-blue-500 text-sm tracking-widest">SEGUNDOS</span>
+    </div>
+
+  </div>
+
+</section>
+
+    <section
+      class="py-24 px-6 text-white"
+    >
+      <div class="max-w-6xl mx-auto text-center">
+        <!-- Titulo -->
+        <h2 class="text-3xl md:text-4xl font-semibold mb-4">
+          Sobre el <span class="text-blue-500">Evento</span>
+        </h2>
+
+        <!-- Descripcion -->
+        <p class="text-gray-400 max-w-2xl mx-auto text-sm md:text-base mb-14">
+          TechConf es el punto de encuentro definitivo para profesionales que
+          buscan liderar la próxima revolución tecnológica a través de tres
+          pilares fundamentales.
+        </p>
+
+        <!-- Cards -->
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div
+            class="bg-white/5 border border-white/10 rounded-xl p-8 text-left hover:border-blue-500/40 transition"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center rounded-lg bg-blue-500/20 text-blue-400 mb-6"
+            >
+              <img src="img/svg/sobre_evento/Vector_1.svg" class="h-10 w-10">
+            </div>
+
+            <h3 class="text-lg font-semibold mb-2">Networking</h3>
+
+            <p class="text-gray-400 text-sm leading-relaxed">
+              Conecta con más de 2,000 líderes de la industria. CTO’s y
+              desarrolladores Senior de las empresas tecnológicas más
+              innovadoras del mundo.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-white/5 border border-white/10 rounded-xl p-8 text-left hover:border-purple-500/40 transition"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center rounded-lg bg-purple-500/20 text-purple-400 mb-6"
+            >
+              <img src="img/svg/sobre_evento/Vector_2.svg" class="h-10 w-10">
+            </div>
+
+            <h3 class="text-lg font-semibold mb-2">Innovación</h3>
+
+            <p class="text-gray-400 text-sm leading-relaxed">
+              Descubre las últimas tendencias en IA Generativa, Web3 y
+              Computación Cuántica presentadas por quienes están escribiendo el
+              código del futuro.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-white/5 border border-white/10 rounded-xl p-8 text-left hover:border-blue-500/40 transition"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center rounded-lg bg-blue-500/20 text-blue-400 mb-6"
+            >
+              <img src="img/svg/sobre_evento/Vector_3.svg" class="h-10 w-10">
+            </div>
+
+            <h3 class="text-lg font-semibold mb-2">Aprendizaje</h3>
+
+            <p class="text-gray-400 text-sm leading-relaxed">
+              Participa en workshops prácticos y sesiones técnicas profundas
+              diseñadas para elevar tus habilidades al siguiente nivel
+              profesional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-24 px-6 text-white">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-semibold mb-4">
+          Expositores <span class="text-blue-500">Destacados</span>
+        </h2>
+
+        <p class="text-gray-400 max-w-xl mx-auto text-sm mb-14">
+          Conoce a algunos de los expertos que formarán parte del congreso.
+          Profesionales de la industria compartirán su experiencia, casos reales
+          y las tendencias que están marcando el futuro de la tecnología.
+        </p>
+
+<div class="max-w-6xl mx-auto">
+
+  <div class="flex items-center justify-center gap-6">
+
+    <!-- Flecha izquierda -->
+    <button
+      class="w-11 h-11 rounded-full border border-white/20 flex items-center justify-center 
+      text-white transition hover:bg-white/10 hover:border-cyan-400 
+      hover:shadow-[0_0_10px_#22d3ee] hover:-translate-x-1"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+      </svg>
+    </button>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+  <!-- Card -->
+  <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-left backdrop-blur-sm hover:bg-white/10 transition">
+
+    <div class="flex items-start gap-4 mb-4">
+
+      <!-- Avatar -->
+      <div class="w-12 h-12 rounded-full overflow-hidden shrink-0 bg-gray-300">
+        <img 
+          src="img/speakers/speaker1.jpg" 
+          alt="Valeria Montes"
+          class="w-full h-full object-cover"
+        >
+      </div>
+
+      <!-- Info -->
+      <div class="min-w-0">
+        <p class="font-semibold text-white leading-tight">
+          Valeria Montes
+        </p>
+        <p class="text-xs text-gray-400 leading-snug">
+          Especialista en Frontend & UX Engineering
+        </p>
+      </div>
+
+    </div>
+
+    <p class="text-sm text-gray-400 leading-relaxed">
+      Experta en desarrollo web moderno, accesibilidad y diseño
+      centrado en el usuario.
+    </p>
+
+  </div>
+
+
+  <!-- Card -->
+  <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-left backdrop-blur-sm hover:bg-white/10 transition">
+
+    <div class="flex items-start gap-4 mb-4">
+
+      <div class="w-12 h-12 rounded-full overflow-hidden shrink-0 bg-gray-300">
+        <img 
+          src="img/speakers/speaker2.jpg"
+          class="w-full h-full object-cover"
+        >
+      </div>
+
+      <div class="min-w-0">
+        <p class="font-semibold text-white">
+          Valeria Montes
+        </p>
+        <p class="text-xs text-gray-400">
+          Especialista en Frontend & UX Engineering
+        </p>
+      </div>
+
+    </div>
+
+    <p class="text-sm text-gray-400 leading-relaxed">
+      Experta en desarrollo web moderno, accesibilidad y diseño
+      centrado en el usuario.
+    </p>
+
+  </div>
+
+
+  <!-- Card -->
+  <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-left backdrop-blur-sm hover:bg-white/10 transition">
+
+    <div class="flex items-start gap-4 mb-4">
+
+      <div class="w-12 h-12 rounded-full overflow-hidden shrink-0 bg-gray-300 ">
+        <img 
+          src="img/speakers/speaker3.jpg"
+          class="w-full h-full object-cover "
+        >
+      </div>
+
+      <div class="min-w-0">
+        <p class="font-semibold text-white">
+          Valeria Montes
+        </p>
+        <p class="text-xs text-gray-400">
+          Especialista en Frontend & UX Engineering
+        </p>
+      </div>
+
+    </div>
+
+    <p class="text-sm text-gray-400 leading-relaxed">
+      Experta en desarrollo web moderno, accesibilidad y diseño
+      centrado en el usuario.
+    </p>
+
+  </div>
+
+</div>
+
+    <!-- Flecha derecha -->
+    <button
+      class="w-11 h-11 rounded-full border border-white/20 flex items-center justify-center 
+      text-white transition hover:bg-white/10 hover:border-cyan-400 
+      hover:shadow-[0_0_10px_#22d3ee] hover:translate-x-1"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+      </svg>
+    </button>
+
+  </div>
+
+  <!-- Indicadores -->
+  <div class="flex justify-center items-center gap-2 mt-8">
+    <div class="w-3 h-3 rounded-full bg-white"></div>
+    <div class="w-8 h-1 bg-white/30 rounded-full"></div>
+    <div class="w-8 h-1 bg-white/30 rounded-full"></div>
+  </div>
+
+</div>
+
+        <button
+          class="mt-8 px-6 py-3 border border-cyan-400 rounded-full text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+        >
+          Más expositores →
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="py-20 px-6 text-white border-t border-white/10"
+    >
+      <div class="max-w-6xl mx-auto text-center">
+        <h3 class="text-2xl font-semibold mb-10">
+          Cobertura De <span class="text-blue-500">Medios Globales</span>
+        </h3>
+
+        <div class="flex flex-wrap justify-center gap-8 text-gray-400 text-sm">
+
+          <span class="flex items-center gap-3">
+            <img src="img/svg/cobertura/Vector_1.svg" class="h-5 w-5" alt="">
+            TechNews
+          </span>
+
+          <span class="flex items-center gap-3">
+            <img src="img/svg/cobertura/Vector_2.svg" class="h-5 w-5" alt="">
+            DevDaily
+          </span>
+
+          <span class="flex items-center gap-3">
+            <img src="img/svg/cobertura/Vector_3.svg" class="h-5 w-5" alt="">
+            FutureStack
+          </span>
+
+          <span class="flex items-center gap-3">
+            <img src="img/svg/cobertura/Vector_4.svg" class="h-5 w-5" alt="">
+            DataPulse
+          </span>
+
+          <span class="flex items-center gap-3">
+            <img src="img/svg/cobertura/Vector_5.svg" class="h-5 w-5" alt="">
+            WebConnect
+          </span>
+
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="py-20 px-6 text-white border-t border-white/10"
+    >
+      <div class="max-w-6xl mx-auto grid md:grid-cols-4 text-center gap-10">
+        <div>
+          <p class="text-3xl font-semibold">40+</p>
+          <p class="text-gray-400 text-sm">Speakers Globales</p>
+        </div>
+
+        <div>
+          <p class="text-3xl font-semibold">2000+</p>
+          <p class="text-gray-400 text-sm">Asistentes</p>
+        </div>
+
+        <div>
+          <p class="text-3xl font-semibold">15+</p>
+          <p class="text-gray-400 text-sm">Países</p>
+        </div>
+
+        <div>
+          <p class="text-3xl font-semibold">100%</p>
+          <p class="text-gray-400 text-sm">Innovación</p>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="py-16 px-6 text-gray-400 border-t border-white/10"
+    >
+      <div class="max-w-6xl mx-auto text-center">
+        <div class="flex justify-center gap-8 mb-10 text-sm">
+          <a href="#" class="hover:text-white">Privacidad</a>
+          <a href="#" class="hover:text-white">Términos</a>
+          <a href="#" class="hover:text-white">Prensa</a>
+          <a href="#" class="hover:text-white">Contacto</a>
+        </div>
+
+        <div class="flex justify-center gap-10 text-xl mb-10">
+          <img src="img/svg/redes_sociales/tiktok.svg" class="h-10 w-10" alt="">
+          <img src="img/svg/redes_sociales/instagram.svg" class="h-10 w-10" alt="">
+          <img src="img/svg/redes_sociales/facebook.svg" class="h-10 w-10" alt="">
+          <img src="img/svg/redes_sociales/twitter.svg" class="h-10 w-10" alt="">
+
+        </div>
+
+        <p class="text-xs text-gray-500">
+          2024 TechConf Global. Built for the Future
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
